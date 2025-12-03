@@ -1,0 +1,123 @@
+body {
+    /* background-color: orange; */
+    margin: 4px 10px;
+    font-family: sans-serif;
+}
+
+.background-container {
+    /* Ensures the container covers the whole viewport */
+    min-height: 100vh;
+    width: 100%;
+
+    /* Apply the linear gradient from top to bottom */
+    background: linear-gradient(
+        to bottom,
+        #E9C29F 0%, /* Light tan/orange at the very top */
+        #E9B58B 50% /* Mid-point color (adjust percentage as needed */
+        #C0783F 75% /* Deeper color where the sand texture starts */
+    );
+
+    /* Fallback color for browsers that don't support gradients */
+    background-color: #E9C29F;
+
+    /* Set positioning for the sand image/texture */
+    position: relative;
+     overflow: hidden; /* To keep everything within the container */
+}
+p {
+    margin: 20px;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    text-align: center;
+ }
+
+h1 {
+   margin: 0px 50px;
+   color: black;
+   font-size: 50px; 
+   text-align: center;          
+  }
+
+strong {
+    background-color: rgb(228, 15, 15); 
+    color: white;
+    padding: 1px 3px;
+    font-size: 10px;
+
+}  
+
+h3 {
+    color: grey;
+    text-align: center;
+   }
+
+
+   /* button styling (from previous step) */
+.wavu-btn {
+    background-color: #009e60; /* slightly darker green */
+    border-radius: 4px;
+    padding: 20px 15px;
+    border: none;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 4px; /* slight rounding on corners */
+    /* display: inline-block; */
+    display: block;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px; /* Imfashije kugabanya width ya background color kuri buttons */ 
+
+
+    /* Text styling */
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; /* Forces text to CAPS automatically */
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+    
+
+}
+
+.wavu-btn:hover {
+    background-color: #007f4d;
+}
+
+/* container for the stack of buttons */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* justify-content: center; */
+    align-items: center; /* imfashije gushyira ama buttons hagati kuko zajyaga ibumoso by default */
+
+    /* /* To ensure the overall content block doesn't make buttons too wide,
+    you can set a max-width on its container (.button-group) */
+/* 
+    width: 100%;
+    max-width: 400%; /* Adjust this value as needed for the overall width */
+    /* margin-left: 0; /* Removing the previous offset if not needed for this look */
+    /* position: relative;
+    z-index: 10; */ */ */
+
+    /* Center the content panel if you removed margin-left */
+
+    /* margin-left: auto;
+    margin-right: auto; */ */
+}
+
+h4 {
+    margin: 0px 50px;
+    padding: 1px 10px;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
