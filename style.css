@@ -18,7 +18,7 @@ body {
     );
 
     /* Fallback color for browsers that don't support gradients */
-    background-color: #E9C29F;
+    background-color: black;
 
     /* Set positioning for the sand image/texture */
     position: relative;
@@ -120,4 +120,5 @@ h4 {
 
 a {
     text-decoration: none;
+
 }
